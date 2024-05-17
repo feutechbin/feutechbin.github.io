@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+      background-image: url('https://images.alphacoders.com/135/1353722.jpeg');
+      background-size: cover;
+      background-position: center;
+      font-weight: bold;
+    }
+    .form-container {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 5%;
+      background-color: rgba(209, 209, 209, 0.7);
+      padding: 20px;
+      max-width: 500px;
+      border-radius: 10px;
+    }
+    .form-container input[type="text"],
+    .form-container textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+    .form-container textarea {
+      height: 150px;
+    }
+    .form-container input[type="submit"] {
+      background-color: #af4f4c;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      font-size: 16px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="form-container">
+  <form>
+    <label>send a message to firefly!</label><br><br>
+    <label><i class="fas fa-user"></i> your name</label><br>
+    <input type="text" id="fname" name="fname"><br>
+    <label><i class="fas fa-utensils"></i> what you had for lunch</label><br>
+    <input type="text" id="lname" name="lname"><br>
+    <label><i class="fab fa-discord"></i> discord username</label><br>
+    <input type="text" id="contact" name="contact"><br>
+    <label><i class="fas fa-envelope"></i> message:</label><br>
+    <textarea id="message" name="message"></textarea><br><br>
+    <input type="submit" value="send">
+  </form>
+</div>
+
+</body>
+</html>
