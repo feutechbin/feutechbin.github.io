@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    background-image: url('https://upload-os-bbs.hoyolab.com/upload/2023/08/22/12183389/851edfac046e5c943e061acab8609138_3197870784391702114.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-weight: bold;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+  }
+  .form-container {
+    background-color: rgba(209, 209, 209, 0.69);
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 10px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+  }
+  .form-group {
+    width: calc(50% - 10px);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  .form-group label {
+    display: inline-block;
+    margin-bottom: 4px;
+  }
+  .form-group input[type="text"],
+  .form-group input[type="number"],
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .form-container input[type="submit"] {
+    background-color: #af4f4c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 100%;
+  }
+  .form-container input[type="submit"]:hover {
+    background-color: rgba(175, 79, 76, 0.69);
+  }
+  .form-header{
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: left;
+  }
