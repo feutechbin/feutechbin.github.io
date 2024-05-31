@@ -29,12 +29,6 @@ body {
   justify-content: center;
 }
 
-.image-box::before {
-  content: "";
-  display: block;
-  padding-top: 100%;
-}
-
 .image-box img {
   position: absolute;
   width: auto;
