@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend3</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://w.wallha.com/ws/13/4LQwrqK5.jpg" alt="Header Image">
+        </div>
+        <div class="name-text">
+                <img src="https://archives.bulbagarden.net/media/upload/a/a0/144MS8.png?20201023204757" alt="articuno">
+            <div>
+                <h1>FRIEND THREE: ARTICUNO</h1>
+                <h2>#0144: The Freeze Pokemon / The Cruel Pokemon</h2>
+            </div>
+        </div>
+        <div class="text">Articuno is a dual-type Ice/Flying Legendary Pokémon introduced in Generation I. Along with Zapdos and Moltres, it is one of the three legendary birds of Kanto.</div>
+        <div class="separator"></div>
+        <div class="big-text-section">
+            <div class="big-text">Articuno is a large avian Pokémon with predominantly sky blue plumage and wings said to be made of ice. On its forehead is a crest that consists of three, darker blue rhombus-shaped feathers. It has circular red eyes, a short gray beak, and long, thin gray legs. Each foot has three forward-facing digits and one facing backward. On its chest is a mass of white, downy feathers. Its long, streamer-like tail is longer than its body and the same shade of blue as its crest. Articuno has the power to control ice at will. When Articuno flaps its wings, it can chill the moisture in the air around it, making snow fall. It flies from icy mountain to icy mountain. According to legend, it appears before doomed travelers lost in icy regions. In Galar, Articuno has a distinct appearance. Its main body has lavender coloration with a black marking covering its chest. Its feet are black with lavender talons. The three feathers of its crest, which are longer, fused, and folded to the back, have the same purple color as its beak and tail. Its eyes glow light blue, appear to be mostly closed, and are surrounded by a black, mask-like facial disc. When Articuno utilizes its psychic power, the entire mask glows the same color as its eyes, as do the white, feather-like blades of condensed psychic power at the edges of its wings. It is constantly migrating around the world but can be found in the Crown Tundra once every few decades congregating with the other birds at the Dyna Tree to eat its fruits. Galarian Articuno is the only known Pokémon capable of learning the move Freezing Glare.</div>
+            <div class="side-text-container">
+                <div class="side-text">Ability: Pressure, Snow Cloak, Competitive</div>
+                <div class="side-text">Height: 1.7m</div>
+                <div class="side-text">Weight: 55.4kg</div>
+                <div class="side-text">Favorite Food: Ice Cream</div>
+        
+            </div>
+        </div>
+        <div class="separator"></div>
+    </div>
+</body>
+</html>
