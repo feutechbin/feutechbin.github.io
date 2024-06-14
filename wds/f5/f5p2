@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend1</title>
+    <style>
+        body {
+            color:white;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            background-color: black;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: repeat(12, 1fr);
+            grid-template-rows: 33vh auto;
+            gap: 10px;
+            padding: 10px;
+        }
+        .header {
+            grid-column: 1 / -1;
+            background-color: black;
+            color: white;
+            text-align: center;
+            overflow: hidden;
+            position: relative;
+        }
+        .header img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .name-text, .text {
+            grid-column: 1 / -1;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        .name-text img {
+            margin-right: 20px;
+            height: 100px;
+            margin-bottom: 35px; 
+        }
+        .name-text div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .name-text h1 {
+            margin: 0;
+            font-size: 2em;
+        }
+        .name-text h2 {
+            margin: 0;
+            font-size: 1.5em;
+            color: #391db4;
+        }
+        .separator {
+            grid-column: 1 / -1;
+            border-bottom: 1px solid #ffffff;
+            margin: 10px 0;
+        }
+        .big-text-section {
+            display: flex;
+            grid-column: 1 / -1;
+            justify-content: space-between;
+        }
+        .big-text {
+            padding: 10px;
+            flex: 0 0 70%;
+            margin-right: 10px;
+        }
+        .side-text-container {
+            display: flex;
+            flex-direction: column;
+            flex: 0 0 30%;
+        }
+        .side-text {
+            background-color: #391db4;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://pbs.twimg.com/media/GDaKbC0a4AAgJ5R?format=jpg&name=large" alt="Header Image">
+        </div>
+        <div class="name-text">
+            <a href="https://pokemondb.net/pokedex/mimikyu">
+                <img src="https://img.pokemondb.net/sprites/sword-shield/normal/mimikyu.png" alt="Mimikyu">
+            </a>
+            <div>
+                <h1>FRIEND TWO: MIMIKYU</h1>
+                <h2>#0778: The Disguise Pokemon</h2>
+            </div>
+        </div>
+        <div class="text">Mimikyu is a dual-type Ghost/Fairy Pokémon introduced in Generation VII. Mimikyu changes forms, from Disguised Form into Busted Form, when it is hit by an attack.</div>
+        <div class="separator"></div>
+        <div class="big-text-section">
+            <div class="big-text">Mimikyu is a small Pokémon whose body is almost entirely hidden under an old rag. Its small size makes it one of the shortest Ghost types. Its eyes are beady black through the holes in the body of its disguise however, as seen in the anime, its eyes are actually purple. Fringe of an amorphous foot or lower body is visible under the hem as well. Occasionally, it will also extend a long, black claw-like appendage from under its rag. When angered, its eyes will glow yellow. The veil itself resembles a Pikachu. The cloth is yellow with black-tipped ears. The Pikachu face appears to be drawn with crayons, consisting of black eyes, red cheeks, and a squiggly black mouth. The rag's head is hollow and can be used to store objects. Mimikyu also carries a small stick resembling a lightning bolt to create a tail for its costume. When its disguise is damaged, the costume's head droops limply backward, revealing Mimikyu's ruse. Larger rips in the costume are accompanied by shadowy vapors pouring out from whatever is hidden within. Mimikyu has two interchangeable forms: Disguised Form and Busted Form. It will always be in its Disguised Form outside of battle. Mimikyu starts battles in its Disguised Form. When it is hit by a damaging move, its Ability Disguise reduces the damage it takes from it: in Generation VII, it takes no damage from it at all, and in Generation VIII onward, it nullifies the attack's damage but then loses 1/8 of its maximum HP. Afterwards, its disguise slumps to the side and it changes into Busted Form. While in Busted Form, it can be damaged normally. Mimikyu will stay in Busted Form until either it faints or the battle ends.</div>
+            <div class="side-text-container">
+                <div class="side-text">Ability: Disguise</div>
+                <div class="side-text">Height: 0.2m</div>
+                <div class="side-text">Weight: 0.7kg</div>
+                <div class="side-text">Favorite Food: Soup</div>
+        
+            </div>
+        </div>
+        <div class="separator"></div>
+    </div>
+</body>
+</html>
