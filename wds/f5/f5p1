@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friend2</title>
+</head>
+<body style="color: white; margin: 0; padding: 0; box-sizing: border-box; font-family: Arial, sans-serif; background-color: black;">
+    <div style="display: grid; grid-template-columns: repeat(12, 1fr); grid-template-rows: 33vh auto; gap: 10px; padding: 10px;">
+        <div style="grid-column: 1 / -1; background-color: black; color: white; text-align: center; overflow: hidden; position: relative;">
+            <img src="https://gtwallpaper.org/sites/default/files/wallpaper/247849/yveltal-background-247849-1688588-4255176.png" alt="Header Image" style="width: 100%; height: 100%; object-fit: cover; position: absolute; top: 0; left: 0;">
+        </div>
+        <div style="grid-column: 1 / -1; padding: 10px; margin-bottom: 10px; display: flex; align-items: center;">
+            <img src="https://archives.bulbagarden.net/media/upload/2/2a/717MS8.png" alt="yve" style="height: 100px; margin-bottom: 0px;">
+            <div style="display: flex; flex-direction: column; justify-content: center;">
+                <h1 style="margin: 0; font-size: 2em;">FRIEND ONE: YVELTAL</h1>
+                <h2 style="margin: 0; font-size: 1.5em; color: #8b1212;">#0717: The Destruction Pokémon</h2>
+            </div>
+        </div>
+        <div style="grid-column: 1 / -1; padding: 10px; margin-bottom: 10px;">Yveltal is a dual-type Dark/Flying Legendary Pokémon introduced in Generation VI. Yveltal is the game mascot of Pokémon Y, appearing on its boxart.</div>
+        <div style="grid-column: 1 / -1; border-bottom: 1px solid #ffffff; margin: 10px 0;"></div>
+        <div style="display: flex; grid-column: 1 / -1; justify-content: space-between;">
+            <div style="padding: 10px; flex: 0 0 70%; margin-right: 10px;">Yveltal is a large Pokémon with both avian and draconic traits. The back of its body is black with white spots along the wings and back; its front, head, and neck are bright red with branching, black lines throughout. It has a pointed, beak-like snout, bright blue eyes, a black, forward-curving horn over each eye, and a thin, antenna-like growth behind each eye. A feathery gray ruff encircles its neck and billows out over its back. Yveltal's wings each have three spikes along the bottom edge near the body and five large, black claws on the tip. It has small, birdlike legs with gray talons. Each foot has two toes facing forward and one pointing backward. Its tail is similar in structure to its wings, including the five claws on the tip. Yveltal has the power to absorb life energy by spreading its wings and tailfeathers. According to legend, Yveltal does this in order to power up its own energy. It is highly feared by the ancient people of Kalos because of this. It is known to appear during the conflict, draining countless people and Pokémon that Yveltal encounters. When it reaches the end of its lifespan, it steals the life energy of everything around it and then transforms into a cocoon to sleep. Yveltal along with Xerneas have the power to transform Evolution stones into Mega Stones as seen with the ultimate weapon's blast shot by AZ 3000 years ago. Both are in charge of taking care of the land in a delicate balance between life and death. Yveltal's power can be used to power up machines as seen with the ultimate weapon. Yveltal is the only known Pokémon capable of learning the move Oblivion Wing. Yveltal is also the only known Pokémon capable of learning the move Focus Blast by leveling up. Additionally, Yveltal is the only known Pokémon that can have Dark Aura as an Ability.</div>
+            <div style="display: flex; flex-direction: column; flex: 0 0 30%;">
+                <div style="background-color: #8b1212; padding: 10px; margin-bottom: 10px;">Ability: Dark Aura</div>
+                <div style="background-color: #8b1212; padding: 10px; margin-bottom: 10px;">Height: 5.8m</div>
+                <div style="background-color: #8b1212; padding: 10px; margin-bottom: 10px;">Weight: 203.0 kg</div>
+                <div style="background-color: #8b1212; padding: 10px; margin-bottom: 10px;">Favorite Food: Pasta</div>
+            </div>
+        </div>
+        <div style="grid-column: 1 / -1; border-bottom: 1px solid #ffffff; margin: 10px 0;"></div>
+    </div>
+</body>
+</html>
