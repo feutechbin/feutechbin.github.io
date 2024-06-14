@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>index page for frens</title>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #e7e7e7;
+        }
+
+        .container {
+            text-align: center;
+        }
+
+        .header {
+            margin-bottom: 35px;
+            font-size: 2em;
+            font-weight: bold;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 35px;
+            text-align: center;
+        }
+
+        .grid img {
+            width: 100px;
+            height: 100px;
+            display: block;
+            margin: 0 auto 10px auto;
+        }
+
+        .grid a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
+
+        .grid a:hover {
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">index page for frens :D</div>
+        <div class="grid">
+            <div>
+                <img src="https://archives.bulbagarden.net/media/upload/2/2a/717MS8.png" alt="Yveltal">
+                <a href="https://example1.com">Friend 1: Yveltal</a>
+            </div>
+            <div>
+                <img src="https://archives.bulbagarden.net/media/upload/b/b3/778MS8.png" alt="Mimikyu">
+                <a href="https://example2.com">Friend 2: Mimikyu</a>
+            </div>
+            <div>
+                <img src="https://archives.bulbagarden.net/media/upload/a/a0/144MS8.png?20201023204757" alt="Articuno">
+                <a href="https://example3.com">Friend 3: Articuno</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
