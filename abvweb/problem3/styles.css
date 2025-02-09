@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: peachpuff;
+    padding-left: 20px;
+}
+#btn-container {
+    position: absolute;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btn {
+    padding: 10px;
+    color: black;
+    border: none;
+    width: 100px;
+    cursor: pointer;
+}
+#mon { background-color: #008CBA; }
+#tue { background-color: red; }
+#wed { background-color: green; }
+#thu { background-color: cyan; }
+#fri { background-color: orange; }
+#sat { background-color: lightseagreen; }
+#sun { background-color: purple; }
+
+#container {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    background: yellow;
+    overflow: hidden;
+}
