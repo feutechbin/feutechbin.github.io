@@ -1,0 +1,58 @@
+@import url('https://fonts.cdnfonts.com/css/technology');
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .calc-container {
+            width: 330px;
+            background: black;
+            border-radius: 12px;
+            padding: 25px;
+        }
+        .screen {
+            width: 305px;
+            height: 60px;
+            text-align: right;
+            font-size: 3rem;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: none;
+            background-color: #707070;
+            border-radius: 8px;
+            color: #000000;
+            font-family: 'Technology', sans-serif;
+        }
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+        }
+        .btn {
+            background-color: #444144;
+            border: none;
+            font-size: 1.4rem;
+            padding: 18px;
+            border-radius: 40px;
+            color: white;
+            text-align: center;
+        }
+        .btn.reset {
+            background-color: #913331;
+        }
+        .btn.result {
+            background-color: #4d614e;
+            grid-row: span 2;
+        }
+        .btn.operator {
+            background-color: #444144;
+        }
+        .btn.backspace {
+            background-color: #444144;
+        }
+        .btn.double {
+            grid-column: span 2;
+        }
