@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <div class="header-title">FOOD GUIDE</div>
+        <button class="menu-button" onclick="closePopup()">MAIN MENU</button>
+    </div>
+
+    <div class="container">
+        <div class="item pasta" onclick="openPopup('Pasta', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?', '200 PHP', 'https://www.recipetineats.com/tachyon/2020/11/Pasta-alla-norma-eggplant-pasta_6-SQ.jpg')">
+            <div class="label">Pasta</div>
+            <div class="image-space"></div>
+        </div>
+        <div class="item seafood" onclick="openPopup('Seafood', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?', '700 PHP', 'https://myfoodbook.com.au/sites/default/files/styles/schema_img/public/recipe_photo/Easy_As_Aussie_Seafood_Platter_vert%20copy.jpg')">
+            <div class="label">Seafood</div>
+            <div class="image-space"></div>
+        </div>
+        <div class="item steak" onclick="openPopup('Steak', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?', '800 PHP', 'https://cdn.shopify.com/s/files/1/0012/4328/3505/files/Tomahawk-image001.jpg')">
+            <div class="label">Steak</div>
+            <div class="image-space"></div>
+        </div>
+        <div class="item dessert" onclick="openPopup('Dessert', 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?', '200 PHP', 'https://belleofthekitchen.com/wp-content/uploads/2024/06/no-bake-oreo-dessert-1-2.jpg')">
+            <div class="label">Desserts</div>
+            <div class="image-space"></div>
+        </div>
+    </div>
+    
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <div class="popup-image" id="popup-image"></div>
+            <div class="popup-text">
+                <h2 id="popup-title"></h2>
+                <p id="popup-description"></p>
+                <h3>Price: <span id="popup-price"></span></h3>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
