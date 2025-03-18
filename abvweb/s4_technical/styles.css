@@ -1,0 +1,119 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: lightgray;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 2em;
+    font-weight: bold;
+    position: relative;
+    z-index: 3;
+}
+
+.header-title {
+    margin-left: 10px;
+}
+
+.menu-button {
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: white;
+    font-size: 0.8em;
+    border-radius: 5px;
+    margin-right: 10px; 
+}
+
+.container {
+    display: grid; 
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 20px;
+    width: 80%;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 800px;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.label {
+    height: 10%;
+    background-color: darkgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.image-space {
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pasta .image-space { background-image: url('https://fedandfit.com/wp-content/uploads/2022/02/230405_stuffed-pasta-shells-24.jpg'); }
+.seafood .image-space { background-image: url('https://overthefirecooking.com/wp-content/uploads/2024/04/Cover-Image-4.jpg'); }
+.steak .image-space { background-image: url('https://images.ricardocuisine.com/services/recipes/9045.jpg'); }
+.dessert .image-space { background-image: url('https://shop.regniercakes.com.au/cdn/shop/products/image_c2eeeb7e-26da-43ef-98a5-0997a37eb79e.jpg?v=1674531392'); }
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.popup-content {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    position: relative;
+    z-index: 3;
+}
+
+.popup-image {
+    width: 50%;
+    background-size: cover;
+    background-position: center;
+}
+
+.popup-text {
+    width: 50%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
